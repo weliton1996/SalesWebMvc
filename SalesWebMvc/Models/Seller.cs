@@ -14,6 +14,8 @@ namespace SalesWebMvc.Models
         public int DepartmentId { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
+        private int salary {get; set;}
+
         public Seller()
         {
         }
